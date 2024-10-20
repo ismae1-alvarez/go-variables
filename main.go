@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"udemy-1/ejercicios"
+	"udemy-1/middleware"
 )
 
 func main() {
@@ -27,9 +26,55 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	// }
 
-	numero, mensaje := ejercicios.EjerciciosDevolverValores("200")
+	// numero, mensaje := ejercicios.EjerciciosDevolverValores("200")
 
-	fmt.Println(numero)
-	fmt.Println(mensaje)
+	// fmt.Println(numero)
+	// fmt.Println(mensaje)
+
+	// teclado.IngresoNumeros()
+
+	// iteraciones.Iterar()
+
+	// fmt.Println(ejercicios.PedirNumero())
+
+	// files.SumaTabla()
+	// files.LeoArchivo()
+
+	// files.LeoArchivo()
+
+	// funciones.Calculos()
+	// funciones.LlamarClosure()
+
+	// funciones.Exponencia(2)
+
+	// arreglos_slices.MuestraArreglos()
+	// arreglos_slices.MuestroSlices()
+	// arreglos_slices.Capacidad()
+
+	// mapas.MostrarMapas()
+
+	// users.AltaUsuario()
+
+	// Pedro := new(modelos.Hombre)
+
+	// ejer_interfaces.HumanosRespirando(Pedro)
+
+	// Maria := new(modelos.Mujer)
+	// ejer_interfaces.HumanosRespirando(Maria)
+
+	// defer_panic.EjemploPanic()
+
+	// canal1 := make(chan bool)
+
+	// go goroutines.MiNombreLento("ismael", canal1)
+
+	// defer func() {
+	// 	<-canal1
+	// }()
+
+	// fmt.Println("Estoy aqui")
+
+	// webserver.MiWebServer()
+	middleware.MiMiddleware()
 
 }
